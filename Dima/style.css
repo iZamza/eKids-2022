@@ -1,0 +1,88 @@
+body {
+    background: linear-gradient(90deg, purple, blue);
+    height: 95vh;
+}
+
+h1 {
+    text-align: center;
+    font-family:cursive;
+    color:white;
+    background:black;
+}
+
+h1:hover {
+    color: purple;
+    cursor:pointer;
+    transition: all 1s;
+}
+
+h2 {
+text-align: center;
+    width: 50;
+    margin: 0 auto;
+    color:white;
+}
+
+ol {
+    text-align: center;
+    width: 50;
+    margin: 0 auto;
+    color:aqua;
+        font-size: 30x;
+}
+
+div {
+    background: white;
+    width: 80%;
+    margin: 100px auto;
+    padding-bottom: 20px;
+}
+
+div {
+    background: blue;
+    width: 80%;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 20px;
+    border-width: 5px;
+    border-color: purple;
+    border-style: dashed;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTborqpXdaV3jtN4ua_7LWYlVZgiifUdA9DGg&usqp=CAU)
+}
+
+p {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%
+    border: 2px solid black;
+}
+
+.arrow-back {
+    background: none;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: white;
+    border: none;
+    margin: 0;
+    display: flex;
+}
+
+.arrow-back > a {
+    text-decoration: none;
+    font-size: 40px;
+    color: orange;
+    display: block;
+    margin: auto;
+}
+
+.arrow-back > a:hover {
+    text-decoration: none;
+    font-size: 40px;
+    color: red;
+    display: block;
+    margin: auto;
+}

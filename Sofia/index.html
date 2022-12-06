@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Домашнее задание 1</title>
+    <link rel="stylesheet" href="blueberry.css">
+</head>
+<body>
+    <div class='arrow-back'>
+        <a href='../index.html'>←</a>
+    </div>
+   <div>
+    <h1>Моё имя:София</h1>
+    <h2>мои увлечения</h2>
+     <ol>
+         <li>Есть</li>
+         <li>Спать</li>
+         <li>Учиться</li>
+         <li>Рисовать</li>
+     </ol>
+     </div>
+     <input type='text' id='first'> *
+     <input type='text' id='second'> = 
+     <span id='result'></span>
+     <button id='button'>Получить результат</button>
+     
+     <h2>Moneytochka</h2>
+     <h2 id='result2'></h2>
+     <center>
+         <button id='button2'>Brosit moneytku</button>
+     </center>
+     
+     <a href="https://www.google.com/"> google</a>
+</body>
+<script>
+    let result2 = document.getElementById('result2');
+    let button2 = document.getElementById('button2');
+    
+    button2.addEventListener('click', function() {
+        if (Math.random() > 0.5){
+            result2.innerHTML = 'orel'
+        }else{
+            result2.innerHTML = 'reshka'
+        }
+    })
+    let first = document.getElementById('first');
+    let second = document.getElementById('second');
+    let result = document.getElementById('result');
+    let button = document.getElementById('button');
+    
+    button.addEventListener('click', function() {
+        result.innerHTML = first.value * second.value;
+    })
+</script>
+</html>

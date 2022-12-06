@@ -1,0 +1,140 @@
+body {
+    background: linear-gradient(45deg, white, #a6afff, white,  #a6afff);
+    height: 95vh;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+    color: white;
+    background: black;
+    transition: all 1s;
+}
+
+h1:hover {
+    cursor: pointer;
+    color: paleturquoise;
+    background: pink;
+    
+}
+
+h2 {
+    text-align: center;
+    background-color: palevioletred;
+    transition: all 1s
+}
+
+
+h2:hover {
+    cursor: pointer;
+    color: paleturquoise;
+    background: pink;
+    
+}
+
+ol {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    color: ;
+}
+
+li {
+    text-align: center;
+}
+
+div {
+    background: linear-gradient(45deg, #a6afff, white, #a6afff,  white);
+    width: 80%;
+    margin: 100px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    border-width: 5px;
+    border-color: black;
+    border-style: dashed;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQubIiaDV6WrAwLSosOOEty0lqI_o86XXhyyEfkd0xa_kOXGV2UEf-sRMv3mzQzHVVWOk&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+p {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 4px solid black;
+    position: absolute;
+    transition: 1s;
+    animation-name: color;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+p:hover {
+    background-color: darkturquoise;
+    border-color: antiquewhite;
+    cursor: no-drop;
+    width: 120px;
+    height: 120px;
+
+    
+}
+
+@keyframes color {
+    0% {
+        background-color: white;
+        right: 87%;
+        top: 250px;
+    }
+    25% {
+        background-color: green;                                        
+        right: 0;
+        top: 250px;
+    }
+    50% {
+        background-color: red;
+        top: -100px;
+        right: 0;
+    }
+    75% { 
+        background-color: yellow;
+        top: -100px;
+        right: 87%;
+    }
+    100% {
+        background-color: white;
+        right: 87%;
+        top: 250px;
+    }
+}
+
+.arrow-back {
+    background: none;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: white;
+    border: none;
+    margin: 0;
+    display: flex;
+}
+
+.arrow-back > a {
+    text-decoration: none;
+    font-size: 40px;
+    color: orange;
+    display: block;
+    margin: auto;
+}
+
+.arrow-back > a:hover {
+    text-decoration: none;
+    font-size: 40px;
+    color: red;
+    display: block;
+    margin: auto;
+}
